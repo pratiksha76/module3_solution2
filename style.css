@@ -1,0 +1,52 @@
+* {
+	box-sizing: border-box;
+	position: relative;
+}
+
+#collapsable-nav {
+margin-top: 8px;
+background: white;
+text-align: center;
+margin: 8px -14px -7px -14px;
+}
+
+.collapsable-nav .nav-list .menu-item {
+	margin: 0px;
+	border: 100px;
+	border-color: black;
+}
+
+.dropdown-divider {
+border-top: 1px solid #000;
+}
+
+.row {
+	width: 95%;
+	left: 3.75%;
+	background: red;
+	margin: 30px 10px; 
+	padding: 15px;
+	border: 1px solid black;
+}
+
+.h2 {
+	text-align: center;
+}
+
+#b2t {
+	display: none;
+}
+
+@media (max-width: 767px){
+.row {
+	width: 85%;
+	left: 10%;
+	margin: 30px 10%; 
+	padding: 15px;
+}
+#b2t {
+	text-align: center;
+	display: inline-block;
+	/*position: relative;*/
+}
+}
